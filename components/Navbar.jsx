@@ -7,19 +7,6 @@ import Image from 'next/image'
 const NavBar = () => {
     return (
        <>
-       <Head>
-           {/* meta tags */}
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <title>Flowstarter &amp; Portfolio Template</title>
-        <link rel="icon" type="image/png" href="favicon.png" />
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-        <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" />
-
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-       </Head>
        <div className="scroll-progress cursor-pointer">
           <svg className="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />

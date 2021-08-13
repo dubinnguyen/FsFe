@@ -28,7 +28,8 @@ const Banner = () => {
             We design &amp; build world-class digital products that make an
             impact and connect people.
           </p>
-          <a href="/about-us" className="line-link">
+          <Link href="/about-us">
+          <a className="line-link">
             About Us{" "}
             <svg
               className="arrow-up-right"
@@ -44,6 +45,7 @@ const Banner = () => {
               <polyline points="7 7 17 7 17 17" />
             </svg>
           </a>
+          </Link>
         </div>
       </div>
       <svg

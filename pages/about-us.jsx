@@ -25,8 +25,14 @@ const About = () => {
    <div className="container">
      <div className="row justify-content-start justify-content-lg-around align-items-center">
        <div className="col-xl-5 col-lg-5 col-md-8">
-         <Image loading="lazy" className="img-fluid" src="/images/about-image.jpg" width={834}
-      height={1000} layout="responsive"/>
+         <Image 
+         loading="lazy" 
+         className="img-fluid" 
+         src="/images/about-image.jpg" 
+         alt="About Us"
+         width={834}
+        height={1000} 
+        layout="responsive"/>
        </div>
        <div className="col-xl-5 col-lg-6 mt-5 mt-lg-0">
          <p className="lead text-dark mb-3">As a full-service digital agency 👋, we work closely with our clients to define, design and develop transformative user experiences across all platforms and brand’s touchpoints.</p>

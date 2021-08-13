@@ -26,8 +26,8 @@ const Testimonials = () => {
                     </svg>
                   </div>
                   <h3 className="review-text">
-                    “If you aren't sure, always go for this theme. I would like
-                    to personally thank you for this outstanding product.”
+                    If you aren't sure, always go for this theme. I would like
+                    to personally thank you for this outstanding product.
                   </h3>
                   <span className="review-author">
                     Margarita Univel - Belbon Inc.
@@ -50,8 +50,8 @@ const Testimonials = () => {
                     </svg>
                   </div>
                   <h3 className="review-text">
-                    “After using abildon my business skyrocketed! I wish I would
-                    have it first. It is worth much more than I paid.”
+                    After using abildon my business skyrocketed! I wish I would
+                    have it first. It is worth much more than I paid.
                   </h3>
                   <span className="review-author">
                     Callie Sheit - Brex Studio.
@@ -74,8 +74,8 @@ const Testimonials = () => {
                     </svg>
                   </div>
                   <h3 className="review-text">
-                    “I don't always clop, but I do it for this template, Abildon
-                    is the most valuable theme we have EVER purchased.”
+                    I don't always clop, but I do it for this template, Abildon
+                    is the most valuable theme we have EVER purchased.
                   </h3>
                   <span className="review-author">
                     Sallyann Veniia - Alex Studio.

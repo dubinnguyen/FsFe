@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-12">
                 <div className="section-title">
-                  <h4 className="h3 font-weight-light text-white">Have an idea, tell us about it!<a href="/contact" className="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width={40} height={40} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}><line x1={7} y1={17} x2={17} y2={7} /><polyline points="7 7 17 7 17 17" /></svg></a></h4>
+                  <h4 className="h3 font-weight-light text-white">Have an idea, tell us about it!<Link href="/contact"><a className="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width={40} height={40} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}><line x1={7} y1={17} x2={17} y2={7} /><polyline points="7 7 17 7 17 17" /></svg></a></Link></h4>
                 </div>
               </div>
               <div className="col-lg-5 col-md-5 mb-4 mb-lg-0">
