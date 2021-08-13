@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Team = () => {
     return (
@@ -18,12 +20,20 @@ const Team = () => {
             <div className="col-xl-3 col-lg-4 col-6">
               <div className="team-item">
                 <div className="block overflow-hidden position-relative">
-                  <img loading="lazy" className="img-fluid" src="/images/team/03.jpg" alt="Team Image" />
+                  <Image 
+                  loading="lazy" 
+                  className="img-fluid" 
+                  src="/images/team/03.jpg" 
+                  alt="Team Image"
+                  width={540}
+                  height={686}
+                  layout="responsive"
+                   />
                   <div className="social-profile d-flex align-items-end justify-content-center">
                     <ul className="list-unstyled list-inline mb-4 pb-2">
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-facebook-f" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-twitter" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-github" /></a></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-facebook-f" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-twitter" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-github" /></a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -36,12 +46,20 @@ const Team = () => {
             <div className="col-xl-3 col-lg-4 col-6">
               <div className="team-item anim-delay-1">
                 <div className="block overflow-hidden position-relative">
-                  <img loading="lazy" className="img-fluid" src="/images/team/01.jpg" alt="Team Image" />
+                <Image 
+                  loading="lazy" 
+                  className="img-fluid" 
+                  src="/images/team/01.jpg" 
+                  alt="Team Image"
+                  width={540}
+                  height={686}
+                  layout="responsive"
+                   />
                   <div className="social-profile d-flex align-items-end justify-content-center">
                     <ul className="list-unstyled list-inline mb-4 pb-2">
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-facebook-f" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-twitter" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-github" /></a></li>
+                    <li className="list-inline-item"><Link href="#"><a><i className="lab la-facebook-f" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-twitter" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-github" /></a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -54,12 +72,20 @@ const Team = () => {
             <div className="col-xl-3 col-lg-4 col-6">
               <div className="team-item anim-delay-2">
                 <div className="block overflow-hidden position-relative">
-                  <img loading="lazy" className="img-fluid" src="/images/team/02.jpg" alt="Team Image" />
+                <Image 
+                  loading="lazy" 
+                  className="img-fluid" 
+                  src="/images/team/03.jpg" 
+                  alt="Team Image"
+                  width={540}
+                  height={686}
+                  layout="responsive"
+                   />
                   <div className="social-profile d-flex align-items-end justify-content-center">
                     <ul className="list-unstyled list-inline mb-4 pb-2">
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-facebook-f" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-twitter" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-github" /></a></li>
+                    <li className="list-inline-item"><Link href="#"><a><i className="lab la-facebook-f" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-twitter" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-github" /></a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -72,12 +98,20 @@ const Team = () => {
             <div className="col-xl-3 col-lg-4 col-6">
               <div className="team-item">
                 <div className="block overflow-hidden position-relative">
-                  <img loading="lazy" className="img-fluid" src="/images/team/04.jpg" alt="Team Image" />
+                <Image 
+                  loading="lazy" 
+                  className="img-fluid" 
+                  src="/images/team/04.jpg" 
+                  alt="Team Image"
+                  width={540}
+                  height={686}
+                  layout="responsive"
+                   />
                   <div className="social-profile d-flex align-items-end justify-content-center">
                     <ul className="list-unstyled list-inline mb-4 pb-2">
-                      <li className="list-inline-item"><a href=""><i className="lab la-facebook-f" /></a></li>
-                      <li className="list-inline-item"><a href=""><i className="lab la-twitter" /></a></li>
-                      <li className="list-inline-item"><a href=""><i className="lab la-github" /></a></li>
+                    <li className="list-inline-item"><Link href="#"><a><i className="lab la-facebook-f" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-twitter" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-github" /></a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -90,12 +124,20 @@ const Team = () => {
             <div className="col-xl-3 col-lg-4 col-6">
               <div className="team-item">
                 <div className="block overflow-hidden position-relative">
-                  <img loading="lazy" className="img-fluid" src="/images/team/05.jpg" alt="Team Image" />
+                <Image 
+                  loading="lazy" 
+                  className="img-fluid" 
+                  src="/images/team/05.jpg" 
+                  alt="Team Image"
+                  width={540}
+                  height={686}
+                  layout="responsive"
+                   />
                   <div className="social-profile d-flex align-items-end justify-content-center">
                     <ul className="list-unstyled list-inline mb-4 pb-2">
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-facebook-f" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-twitter" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-github" /></a></li>
+                    <li className="list-inline-item"><Link href="#"><a><i className="lab la-facebook-f" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-twitter" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-github" /></a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -108,12 +150,20 @@ const Team = () => {
             <div className="col-xl-3 col-lg-4 col-6">
               <div className="team-item anim-delay-2">
                 <div className="block overflow-hidden position-relative">
-                  <img loading="lazy" className="img-fluid" src="/images/team/06.jpg" alt="Team Image" />
+                <Image 
+                  loading="lazy" 
+                  className="img-fluid" 
+                  src="/images/team/06.jpg" 
+                  alt="Team Image"
+                  width={540}
+                  height={686}
+                  layout="responsive"
+                   />
                   <div className="social-profile d-flex align-items-end justify-content-center">
                     <ul className="list-unstyled list-inline mb-4 pb-2">
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-facebook-f" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-twitter" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-github" /></a></li>
+                    <li className="list-inline-item"><Link href="#"><a><i className="lab la-facebook-f" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-twitter" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-github" /></a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -126,12 +176,20 @@ const Team = () => {
             <div className="col-xl-3 col-lg-4 col-6">
               <div className="team-item anim-delay-3">
                 <div className="block overflow-hidden position-relative">
-                  <img loading="lazy" className="img-fluid" src="/images/team/07.jpg" alt="Team Image" />
+                <Image 
+                  loading="lazy" 
+                  className="img-fluid" 
+                  src="/images/team/07.jpg" 
+                  alt="Team Image"
+                  width={540}
+                  height={686}
+                  layout="responsive"
+                   />
                   <div className="social-profile d-flex align-items-end justify-content-center">
                     <ul className="list-unstyled list-inline mb-4 pb-2">
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-facebook-f" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-twitter" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-github" /></a></li>
+                    <li className="list-inline-item"><Link href="#"><a><i className="lab la-facebook-f" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-twitter" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-github" /></a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -144,12 +202,20 @@ const Team = () => {
             <div className="col-xl-3 col-lg-4 col-6">
               <div className="team-item anim-delay-1">
                 <div className="block overflow-hidden position-relative">
-                  <img loading="lazy" className="img-fluid" src="/images/team/08.jpg" alt="Team Image" />
+                <Image 
+                  loading="lazy" 
+                  className="img-fluid" 
+                  src="/images/team/08.jpg" 
+                  alt="Team Image"
+                  width={540}
+                  height={686}
+                  layout="responsive"
+                   />
                   <div className="social-profile d-flex align-items-end justify-content-center">
                     <ul className="list-unstyled list-inline mb-4 pb-2">
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-facebook-f" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-twitter" /></a></li>
-                      <li className="list-inline-item"><a href="#!"><i className="lab la-github" /></a></li>
+                    <li className="list-inline-item"><Link href="#"><a><i className="lab la-facebook-f" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-twitter" /></a></Link></li>
+                      <li className="list-inline-item"><Link href="#"><a><i className="lab la-github" /></a></Link></li>
                     </ul>
                   </div>
                 </div>
@@ -160,7 +226,9 @@ const Team = () => {
               </div>
             </div>
             <div className="col-12 mt-5 pt-4 text-center">
-              <a className="btn btn-black" href="/team#open-positions" data-text="See Open Positions"><span>See Open Positions</span></a>
+              <Link href="/team#open-positions">
+              <a className="btn btn-black" data-text="See Open Positions"><span>See Open Positions</span></a>
+              </Link>
             </div>
           </div>
         </div>

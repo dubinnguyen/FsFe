@@ -1,4 +1,7 @@
 import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+
 
 const Partners = () => {
     return (
@@ -16,49 +19,69 @@ const Partners = () => {
       </div>
       <div className="clients-logo-grid">
         <div className="logo-item">
-          <a href="#!" className="anim-delay-4">
-            <img
+          <Link href="/">
+          <a className="anim-delay-4">
+            <Image
               loading="lazy"
               src="/images/clients/lenovo.png"
               alt="brands"
+              width={200}
+              height={67}
             />
           </a>
+          </Link>
         </div>
         <div className="logo-item">
-          <a href="#!" className="anim-delay-3">
-            <img
+        <Link href="/">
+          <a className="anim-delay-4">
+            <Image
               loading="lazy"
               src="/images/clients/payoneer.svg"
               alt="brands"
+              width={200}
+              height={67}
             />
           </a>
+          </Link>
         </div>
         <div className="logo-item">
-          <a href="#!" className="anim-delay-2">
-            <img
+        <Link href="/">
+          <a className="anim-delay-4">
+            <Image
               loading="lazy"
               src="/images/clients/paypal.svg"
               alt="brands"
+              width={200}
+              height={67}
             />
           </a>
+          </Link>
         </div>
         <div className="logo-item">
-          <a href="#!" className="anim-delay-4">
-            <img
+        <Link href="/">
+          <a className="anim-delay-4">
+            <Image
               loading="lazy"
               src="/images/clients/samsung.png"
               alt="brands"
+              width={200}
+              height={67}
             />
           </a>
+          </Link>
         </div>
         <div className="logo-item">
-          <a href="#!" className="anim-delay-5">
-            <img
+        <Link href="/">
+          <a className="anim-delay-4">
+            <Image
               loading="lazy"
               src="/images/clients/slack.png"
               alt="brands"
+              width={200}
+              height={67}
             />
           </a>
+          </Link>
         </div>
       </div>
     </div>

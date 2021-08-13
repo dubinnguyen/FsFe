@@ -1,5 +1,7 @@
 import React from 'react'
 import Team from '../components/Team'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const About = () => {
     return (
@@ -23,12 +25,15 @@ const About = () => {
    <div className="container">
      <div className="row justify-content-start justify-content-lg-around align-items-center">
        <div className="col-xl-5 col-lg-5 col-md-8">
-         <img loading="lazy" className="img-fluid" src="/images/about-image.jpg" alt="" />
+         <Image loading="lazy" className="img-fluid" src="/images/about-image.jpg" width={834}
+      height={1000} layout="responsive"/>
        </div>
        <div className="col-xl-5 col-lg-6 mt-5 mt-lg-0">
          <p className="lead text-dark mb-3">As a full-service digital agency 👋, we work closely with our clients to define, design and develop transformative user experiences across all platforms and brand’s touchpoints.</p>
          <p className="anim-delay-1">We build thoughtful digital experiences for the modern world. We have created an environment to encourage warm exchanges around brands. In a permanent adaptation, the ideas are concretized by the bonds which we weave between our customers and our talents.</p>
-         <a href="/contact" className="btn btn-black mt-5 anim-delay-2" data-text="Contact Us"><span>Contact Us</span></a>
+         <Link href="/contact">
+         <a className="btn btn-black mt-5 anim-delay-2" data-text="Contact Us"><span>Contact Us</span></a>
+         </Link>
        </div>
      </div>
    </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const About = () => {
     return (
@@ -8,11 +9,12 @@ const About = () => {
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <img
-            loading="lazy"
-            className="img-fluid"
+        <Image
             src="/images/about-02.jpg"
-            alt
+            alt="Picture of the author"
+            width={1280}
+            height={674}
+            layout="responsive"
           />
         </div>
       </div>

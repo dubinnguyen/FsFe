@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Banner = () => {
     return (
@@ -13,13 +14,14 @@ const Banner = () => {
             We build brands, relations &amp; trust
             <span className="text-primary">.</span>
           </h1>
+          <Link href="/">
           <a
-            href="/portfolio"
             className="btn btn-white"
             data-text="Download"
           >
             <span>Whitepaper</span>
           </a>
+          </Link>
         </div>
         <div className="col-xl-4 col-lg-5 col-md-10 mt-5 mt-lg-0 anim-delay-2">
           <p className="lead text-white" style={{ marginBottom: "2rem" }}>
