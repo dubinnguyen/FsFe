@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Testimonials = () => {
     return (
@@ -26,7 +26,7 @@ const Testimonials = () => {
                     </svg>
                   </div>
                   <h3 className="review-text">
-                    If you aren't sure, always go for this theme. I would like
+                    If you aren&apos;t sure, always go for this theme. I would like
                     to personally thank you for this outstanding product.
                   </h3>
                   <span className="review-author">
@@ -74,7 +74,7 @@ const Testimonials = () => {
                     </svg>
                   </div>
                   <h3 className="review-text">
-                    I don't always clop, but I do it for this template, Abildon
+                    I don&apos;t always clop, but I do it for this template, Abildon
                     is the most valuable theme we have EVER purchased.
                   </h3>
                   <span className="review-author">
