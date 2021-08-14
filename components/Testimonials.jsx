@@ -30,7 +30,7 @@ const Testimonials = () => {
                     to personally thank you for this outstanding product.
                   </h3>
                   <span className="review-author">
-                    Margarita Univel - Belbon Inc.
+                  Tony Hollingsworth - Listen Campaign.
                   </span>
                 </div>
               </div>

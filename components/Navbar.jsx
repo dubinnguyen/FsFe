@@ -20,13 +20,13 @@ const NavBar = () => {
               <div className="col-12">
                 <nav className="navbar navbar-expand-lg navbar-dark px-0 py-3 py-lg-4">
                   {/* navbar logo */}
-                  <Link href="">
+                  <Link href="/">
                   <a className="navbar-brand font-weight-bold mb-0" href="" title="FlowStarter">
                     <Image 
-                    src="/logo.png" 
+                    src="/logo-white.png" 
                     alt="Flowstarter"
-                    width={110}
-                    height={23}
+                    width={300}
+                    height={35}
                     />
                   </a>
                   </Link>
@@ -41,7 +41,7 @@ const NavBar = () => {
                     <ul className="navbar-nav mx-auto">
                       <li data-toggle="navbar-menu-close"><i className="las la-times mr-1" />Close</li>
                       <li className="nav-item">
-                        <Link href="/about">
+                        <Link href="/about-us">
                         <a className="nav-link">About</a>
                         </Link>
                       </li>
@@ -50,11 +50,11 @@ const NavBar = () => {
                         <a className="nav-link">Team</a>
                         </Link>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                       <Link href="/portfolio">
                         <a className="nav-link">Portfolio</a>
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                       <Link href="/blogs">
                         <a className="nav-link">Blogs</a>

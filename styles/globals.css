@@ -1139,7 +1139,7 @@ a.text-dark:hover {
 }
 
 .navbar-brand img {
-    width: 110px
+    width: 190px
 }
 
 .navbar-brand p {
@@ -2261,11 +2261,11 @@ a.text-dark:hover {
 .review-carousel .review-item {
     text-align: center;
     transition: .3s;
-    opacity: 0
+    /* opacity: 0 */
 }
 
 .review-carousel .swiper-slide-active .review-item {
-    opacity: 1
+    opacity: 1 
 }
 
 .review-carousel .review-author {
